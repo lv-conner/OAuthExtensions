@@ -1,0 +1,5 @@
+1.在平台上获取consumer_key
+2.根据consumer_key获取Request_Token(需要consumer_key/redirect_uri/state(可选)) RequestTokenEndpoint;
+3.重定向到Pocket网站 https://getpocket.com/auth/authorize?request_token=YOUR_REQUEST_TOKEN&redirect_uri=YOUR_REDIRECT_URI  AuthroizationEndpoint
+4.Pocket将返回到第二步提供的redirect_uri中。
+5.向https://getpocket.com/v3/oauth/authorize发起请求获取Access_Token和username	TokenEndpoint;

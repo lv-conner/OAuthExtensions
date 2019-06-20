@@ -7,6 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample", "Sample\Sample.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OAuthHandler.Pocket", "OAutnHandler.Pocket\OAuthHandler.Pocket.csproj", "{2853D0E6-DF03-4C68-89AC-02CA7C005F91}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{CE5E3931-3F73-46BD-9B22-E5E0B73E806E}"
+	ProjectSection(SolutionItems) = preProject
+		Pocket.txt = Pocket.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
