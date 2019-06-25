@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{CE5E39
 		Pocket.txt = Pocket.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OAuth", "OAuth", "{56641BA5-69B7-41CC-9460-9F3519A2A98E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{203675C0-600C-4489-9062-B0573630CCE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{715E646B-FF00-460D-B746-2A20B16D5519} = {56641BA5-69B7-41CC-9460-9F3519A2A98E}
+		{2853D0E6-DF03-4C68-89AC-02CA7C005F91} = {56641BA5-69B7-41CC-9460-9F3519A2A98E}
+		{56641BA5-69B7-41CC-9460-9F3519A2A98E} = {203675C0-600C-4489-9062-B0573630CCE9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66939630-A8BD-4A13-97A1-9BDE6AD576CC}
