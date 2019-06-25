@@ -37,7 +37,7 @@ namespace Coco.Exntesion.FileLogger
         }
         private ILogger LoggerFactory(string categoryName)
         {
-            return new FileLogger(_fileLoggerOption,categoryName);
+            return new FileLogger(_fileLoggerOption,categoryName,_logLevel);
         }
 
     }
